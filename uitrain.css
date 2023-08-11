@@ -45,16 +45,27 @@
 }
 .ola{
 font-size: 24px;
+font-family: 'Nunito', sans-serif;
 }
 .desenvolvo{
 font-size: 28px;
 font-weight: bold;
+line-height: 36px;
 width: 40%;
+}
+.desenvolvo span{
+    color: #38BDF8;
+    text-decoration: underline yellow;
+    font-family: 'Poppins', sans-serif;
+    /* #40C4FF 100% #189FFF 100%; */
 }
 .card-btn{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+}
+.card-btn1{
+    display: flex;
 }
 .contato{
     color: white;
@@ -73,6 +84,7 @@ width: 40%;
 }
 .ultimos{
     font-size: 50px;
+    font-family: 'Poppins', sans-serif;
 }
 .cart-margin{
     margin-bottom: 30px;
@@ -88,6 +100,7 @@ width: 40%;
     font-size: 22px;
     margin-bottom: 20px;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 .btn-shape{
     border-radius: 22px;
@@ -95,6 +108,7 @@ width: 40%;
     border: none;
     margin-right: 10px;
     color: white;
+    margin-bottom: 10px;
 }
 .shop-btns{
     margin-bottom: 14px;
@@ -161,13 +175,14 @@ background-color: #022516;
     display: flex;
 }
 .paradiv{
- width: 40%;
+ width: 50%;
 }
 .onepara{
     margin-top: 20px;
     margin-left: 1em;
     margin-bottom: 40px;
     font-size: 22px;
+    font-family: 'Nunito', sans-serif;
 }
 .memodiv{
   display: flex;
@@ -175,7 +190,7 @@ background-color: #022516;
  margin: auto;
 }
 .memodiv img{
-    transform: scale(2); 
+    transform: scale(1.5); 
   transform-origin: top;
 }
 .lang-flex{
@@ -183,7 +198,7 @@ background-color: #022516;
     margin-bottom: 70px;
 }
 .img-margin{
-    margin-right: 80px;
+    margin-right: 50px;
 }
 .footer-1{
     display: flex;
@@ -216,11 +231,13 @@ background-color: #022516;
 .one-ft{
     margin-left: 10px;
     margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
 }
 .two-ft{
     margin-left: 10px;
     text-decoration: underline;
     margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 .one-icon{
 color: #38BDF8;
@@ -238,5 +255,101 @@ border-radius: 6px;
 .footer-reference{
     text-align: center;
     margin-bottom: 30px;
-    color: rgb(187, 181, 181)
+    color: rgb(187, 181, 181);
+    font-family: 'Poppins', sans-serif;
 }
+.ftimg{
+    position: relative;
+    top: 8px;
+    margin-left: 6px
+}
+/*  ...........................................MEDIA QUERIES .....................................................*/
+    /* Styles to apply when the screen width is 1180px or smaller */
+@media (max-width:1180px) {
+    .box-det{
+        width: 50%;
+    }
+  .shop-box{
+            flex-wrap:wrap;
+        }
+     }
+@media (max-width:970px) {
+.onepara{
+    margin-bottom: 16px;
+}
+}
+@media (max-width: 830px) {
+    .shop-img {
+        width: 300px;
+        height: 250px;
+    }
+    .onepara{
+        font-size: 18px;
+    }
+    .img-margin {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+.desenvolvo{
+    width: 60%;
+}
+.box-det{
+    width: 100%;
+}
+.memopara-box{
+    flex-wrap: wrap;
+}
+.paradiv{
+    width: 95%;
+}
+.memodiv img {
+    transform: scale(1);
+}
+.temfont{
+    font-size:30px;
+}
+  }
+@media (max-width: 540px){
+  .langpic{
+    width: 100px;
+    height: 150px; 
+}
+.footer-pic{
+    display: none;
+}
+}
+@media (max-width: 440px) {
+    .desenvolvo{
+        width: 85%;
+    }
+    .card-btn{
+        flex-wrap: wrap;
+    }
+    .card-btn1{
+        width: 100%;
+        justify-content: center;
+    }
+ }
+@media (max-width: 390px) {
+ .langpic {
+    width: 80px;
+    height: 115px;
+}
+.onepara {
+    font-size: 16px;
+}
+}
+@media (max-width: 340px) {
+   .desenvolvo{
+            width: 100%;
+        }
+    .shop-img {
+        width: 250px;
+    }
+    .img-margin {
+        margin-right: 0px;
+    }
+}
+     
