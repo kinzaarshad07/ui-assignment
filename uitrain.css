@@ -167,7 +167,7 @@ background-color: #022516;
     margin-right: 14px;
 }
 .vector{
-    width: 100px;
+    width: 127px;
     height: 49px;
     margin-top: -35px;
 }
@@ -228,16 +228,24 @@ background-color: #022516;
     width: 100%;
     height: 100%;
 }
+.temfont{
+    width: 70%;
+    margin-left: 10px;
+}
 .one-ft{
     margin-left: 10px;
     margin-bottom: 40px;
     font-family: 'Poppins', sans-serif;
+    width: 30%;
 }
 .two-ft{
     margin-left: 10px;
     text-decoration: underline;
     margin-bottom: 30px;
     font-family: 'Poppins', sans-serif;
+}
+.footericons{
+    margin-left: 10px;
 }
 .one-icon{
 color: #38BDF8;
@@ -263,6 +271,9 @@ border-radius: 6px;
     top: 8px;
     margin-left: 6px
 }
+.glink{
+    font-weight: bold;
+}
 /*  ...........................................MEDIA QUERIES .....................................................*/
     /* Styles to apply when the screen width is 1180px or smaller */
 @media (max-width:1180px) {
@@ -276,6 +287,12 @@ border-radius: 6px;
 @media (max-width:970px) {
 .onepara{
     margin-bottom: 16px;
+}
+.temfont{
+    width: 100%;
+}
+.one-ft{
+    width: 40%;
 }
 }
 @media (max-width: 830px) {
@@ -318,6 +335,9 @@ border-radius: 6px;
 }
 .footer-pic{
     display: none;
+}
+.one-ft{
+    width: 100%;
 }
 }
 @media (max-width: 440px) {
