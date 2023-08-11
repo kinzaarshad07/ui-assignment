@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav1-width{
+    width: 90%;
+}
+.nav-box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.first-head{
+    display: flex;
+}
+.achtenberg{
+    margin-top: 16px;
+    margin-left: 12px;
+}
+.nav-grad{
+    background: linear-gradient(99.03deg, #FBED96 -1%, #ABECD6 92.31%);
+    border-radius: 22px;
+    margin-bottom: 40px;
+}
+.memoji{
+ display: flex;
+ justify-content: center;
+ margin-top: 24px;
+}
+.memoji img{
+    height: 100px;
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.ola{
+font-size: 24px;
+}
+.desenvolvo{
+font-size: 28px;
+font-weight: bold;
+width: 40%;
+}
+.card-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.contato{
+    color: white;
+    background-color: black;
+    padding: 6px 28px;
+    border-radius: 22px;
+}
+.cvbtn{
+    margin-left: 10px;
+    margin-top: 6px;
+    font-size: 16px;
+}
+.iconarrow{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.ultimos{
+    font-size: 44px;
+}
+.cart-margin{
+    margin-bottom: 30px;
+}
+.shop-box{
+    display: flex;
+    justify-content: space-between;
+}
+.box-det{
+    width: 31%;
+}
+.shop-carts{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.btn-shape{
+    border-radius: 22px;
+    padding: 6px 12px;
+    border: none;
+    margin-right: 10px;
+    color: white;
+}
+.shop-btns{
+    margin-bottom: 14px;
+}
+.react-btn{
+   background-color: #38BDF8;
+}
+.css-btn{
+ background-color: #34D399 ;
+}
+.rdx-btn{
+    background-color: #111827;
+}
+.js-btn{
+ background-color: #F59E0B ;
+}
+.api-btn{
+ background-color: #F43F5E;
+}
+.shop-img{
+    width: 350px;
+    height: 300px;
+    padding: 34px 10px;
+    border-radius: 22px;
+}
+.red-bg{
+  background-color: #E23839;
+}
+.green-bg{
+background-color: #022516;
+}
+.orange-bg{
+ background-color: #ED7854 ;
+}
+.shop-links{
+    display: flex;
+}
+.img-margin{
+    margin-bottom: 12px;
+}
